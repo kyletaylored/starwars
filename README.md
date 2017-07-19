@@ -8,9 +8,8 @@ Let's list the movies here.
   1. The Phantom Menace
   2. Attack of the Clones
   3. Revenge of the Sith
-* Original
-  1. A New Hope
-  2. Empire Strikes Back
-  3. Return of the Jedi
+  4. A New Hope
+  5. Empire Strikes Back
+  6. Return of the Jedi
 
 ***

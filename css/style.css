@@ -1,7 +1,11 @@
+/* Main stylesheet for Star Wars website. */
 html {
   font-family: "Calibri", "Helvetica", sans-serif;
 }
 
+/*
+Oh man, this is a long comment.
+*/
 a {
   color: yellow !important;
   text-decoration: none;

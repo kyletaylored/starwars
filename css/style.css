@@ -1,0 +1,28 @@
+html {
+  font-family: "Calibri", "Helvetica", sans-serif;
+}
+
+a {
+  color: yellow !important;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section, aside {
+  float: left;
+}
+
+section {
+  width: 70%;
+}
+
+aside {
+  width: 30%;
+}
+
+img {
+  width: 100%;
+}

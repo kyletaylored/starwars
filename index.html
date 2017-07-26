@@ -2,10 +2,36 @@
 <html>
 <head>
   <title>Star Wars | Home</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+
+  h2 {
+    color: blue;
+  }
+
+  .inherit {
+    color: yellow;
+  }
+
+  .inherit h2 {
+    color: initial;
+  }
+
+  </style>
 </head>
 <body>
   <div class="main-content">
+
+    <div class="message">
+      <h2>Success</h2>
+      <p><span>Congrats!</span>! You made a thing today.</p>
+    </div>
+
+    <div class="inherit">
+      <h2>Something</h2>
+    </div>
+
     <section>
     <h1>Intro to Star Wars</h1>
     <p>
@@ -18,10 +44,11 @@
       <!-- Starting list of movies. -->
       <h2>List of movies</h2>
       <h3>Original Trilogy</h3>
-      <ol>
-        <li>IV – A New Hope (1977)</li>
-        <li>V – The Empire Strikes Back (1980)</li>
-        <li>VI – Return of the Jedi (1983)</li>
+
+      <ol class="list">
+        <li class="list-item">IV – A New Hope (1977)</li>
+        <li class="list-item">V – The Empire Strikes Back (1980)</li>
+        <li class="list-item">VI – Return of the Jedi (1983)</li>
       </ol>
 
       <h3>Prequel Trilogy</h3>

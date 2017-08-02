@@ -47,18 +47,6 @@ html {
   background: lightblue;
 }
 
-/*
-Oh man, this is a long comment.
-*/
-a {
-  color: yellow !important;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 section, aside {
   float: left;
 }
@@ -73,4 +61,8 @@ aside {
 
 img {
   width: 100%;
+}
+
+.movies .panel-heading {
+  min-height: 70px;
 }
